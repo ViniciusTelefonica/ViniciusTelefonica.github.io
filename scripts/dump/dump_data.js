@@ -1,0 +1,87 @@
+// Dados fictícios de eventos com coordenadas de localização
+const eventData = [
+    {
+        "id":1,
+        "name": "Exposição de Arte Contemporânea",
+        "address": "Museu da Arte, Avenida Paulista, 1000",
+        "latitude": -23.5616,
+        "longitude": -46.6554,
+        "category": "Artes",
+        "description": "Exposição com obras de artistas contemporâneos.",
+        "price": "R$ 20,00",
+        "evaluation": 1,
+        "lotation": "pouco lotado",
+        "environment": "Fechado",
+        "time": "10:00 - 18:00"
+    },
+    {
+        "id":2,
+        "name": "Show de Stand-Up",
+        "address": "Teatro Comédia, Rua das Palmeiras, 56",
+        "latitude": -23.5568,
+        "longitude": -46.6420,
+        "category": "Entretenimento",
+        "description": "Uma noite de comédia com vários comediantes.",
+        "price": "R$ 50,00",
+        "evaluation": 2,
+        "lotation": "pouco lotado",
+        "environment": "Fechado",
+        "time": "20:00 - 22:00"
+    },
+    {
+        "id":3,
+        "name": "Feira de Tecnologia",
+        "address": "Centro de Eventos, Rua dos Inovadores, 123",
+        "latitude": -23.5489,
+        "longitude": -46.6388,
+        "category": "Tecnologia",
+        "description": "Feira com as últimas novidades em tecnologia.",
+        "price": "Gratuito",
+        "evaluation": 3,
+        "lotation": "pouco lotado",
+        "environment": "Aberto",
+        "time": "09:00 - 17:00"
+    },
+    {
+        "id":4,
+        "name": "Aula de Yoga ao Ar Livre",
+        "address": "Praça da Liberdade, 10",
+        "latitude": -23.5476,
+        "longitude": -46.6352,
+        "category": "Saúde",
+        "description": "Aula de yoga para todos os níveis, realizada ao ar livre.",
+        "price": "R$ 30,00",
+        "evaluation": 2,
+        "lotation": "pouco lotado",
+        "environment": "Aberto",
+        "time": "07:00 - 08:00"
+    },
+    {
+        "id":5,
+        "name": "Festival Gastronômico",
+        "address": "Parque Central, Avenida das Nações, 200",
+        "latitude": -23.5501,
+        "longitude": -46.6338,
+        "category": "Gastronomia",
+        "description": "Festival com diversos pratos e comidas de diferentes países.",
+        "price": "R$ 25,00",
+        "evaluation": 4,
+        "lotation": "pouco lotado",
+        "environment": "Aberto",
+        "time": "12:00 - 22:00"
+    },
+    {
+        "id":6,
+        "name": "Corrida de Rua",
+        "address": "Estádio Municipal, Rua do Atleta, 50",
+        "latitude": -23.5555,
+        "longitude": -46.6455,
+        "category": "Esportes",
+        "description": "Corrida de rua com percursos de 5 e 10 km.",
+        "price": "R$ 70,00",
+        "evaluation": 5,
+        "lotation": "pouco lotado",
+        "environment": "Aberto",
+        "time": "08:00 - 11:00"
+    }
+];

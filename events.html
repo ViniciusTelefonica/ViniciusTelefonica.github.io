@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes do Evento</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/events.css">
+    
+</head>
+<body>
+ 
+    <header>
+        <button class="hamburger">&#9776;</button>
+        <h1>Eventsy</h1>
+    </header>
+     
+    <!-- Menu sobreposto -->
+    <nav>
+        <a href="index.html">Eventos</a>
+        <a href="index.html">Buscar</a>
+        <a href="index.html">Notificações</a>
+        <a href="index.html">Grupos</a>
+    </nav>
+ 
+    <section class="event-details">
+        <div class="event-header">
+            <h1 id="event-name">Nome do Evento</h1>
+            <p id="event-address">Endereço</p>
+            <p id="event-time">Horário</p>
+            <p id="event-price">Valor do Ingresso</p>
+            <p id="event-environment">Ambiente</p>
+            <p id="event-lotation">Lotação</p>
+            <p id="event-evaluation">Avaliação do evento</p>
+            <p id="stars"></p>
+        </div>
+        <div class="event-description">
+            <p id="event-description">Descrição do Evento</p>
+        </div>
+        <p>Avalie este evento!</p>
+        <div class="star-container">
+            <span class="star star-outline">&#9734;</span>
+            <span class="star star-outline">&#9734;</span>
+            <span class="star star-outline">&#9734;</span>
+            <span class="star star-outline">&#9734;</span>
+            <span class="star star-outline">&#9734;</span>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="footer-icons">
+            <a href="index.html" class="footer-icon">
+                <div class="icon">&#128197;</div>
+                <span>Eventos</span>
+            </a>
+            <a href="index.html" class="footer-icon">
+                <div class="icon">&#128269;</div>
+                <span>Buscar</span>
+            </a>
+            <a href="index.html" class="footer-icon">
+                <div class="icon">&#128276;</div>
+                <span>Notificações</span>
+            </a>
+            <a href="index.html" class="footer-icon">
+                <div class="icon">&#128101;</div>
+                <span>Grupos</span>
+            </a>
+        </div>
+    </footer>
+
+    <script src="./scripts/dump/dump_data.js"></script>
+    <script src="./scripts/prepare-event-page.js"></script>
+    <script src="./scripts/menu.js"></script>
+    <script src="./scripts/evaluate.js"></script>
+ 
+</body>
+</html>

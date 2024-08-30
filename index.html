@@ -1,1 +1,58 @@
-Hello World
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela Inicial</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+<header>
+    <button class="hamburger">&#9776;</button>
+    <h1>Eventsy</h1>
+</header>
+ 
+<!-- Menu sobreposto -->
+<nav>
+    <a href="index.html">Eventos</a>
+    <a href="index.html">Buscar</a>
+    <a href="index.html">Notificações</a>
+    <a href="index.html">Grupos</a>
+</nav>
+ 
+<!-- Filtros de Categoria -->
+<section class="filters">
+    <!-- Filtros serão gerados dinamicamente -->
+</section>
+ 
+<!-- Espaço para Eventos -->
+<section class="events">
+    <!-- Mensagem e eventos serão gerados dinamicamente aqui -->
+</section>
+ 
+<footer>
+    <div class="footer-icons">
+        <a href="index.html" class="footer-icon">
+            <div class="icon">&#128197;</div>
+            <span>Eventos</span>
+        </a>
+        <a href="index.html" class="footer-icon">
+            <div class="icon">&#128269;</div>
+            <span>Buscar</span>
+        </a>
+        <a href="index.html" class="footer-icon">
+            <div class="icon">&#128276;</div>
+            <span>Notificações</span>
+        </a>
+        <a href="index.html" class="footer-icon">
+            <div class="icon">&#128101;</div>
+            <span>Grupos</span>
+        </a>
+    </div>
+</footer>
+<script src="./scripts/dump/dump_data.js"></script>
+<script src="./scripts/geolocalization.js"></script>
+<script src="./scripts/menu.js"></script>
+<script src="./scripts/filters.js"></script> 
+</body>
+</html>
